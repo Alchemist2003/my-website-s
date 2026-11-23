@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhijith S</title>
+    <meta name="description" content="Abhijith's website" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="card" aria-live="polite">
+      <p class="kicker">Hello there</p>
+      <h1>
+        I am
+        <button
+          class="name"
+          id="nameButton"
+          type="button"
+          aria-label="Abhijith S"
+        >
+          Abhijith S
+        </button>
+      </h1>
+
+      <p class="intro-text">
+        I am a tech enthusiast who loves gadgets, technologies, and meaningful
+        human connections.
+      </p>
+      <p class="card-output" id="cardOutput"></p>
+    </main>
+
+    <section class="vault" id="vault" hidden>
+      <input
+        id="vaultInput"
+        type="text"
+        autocomplete="off"
+        spellcheck="false"
+        placeholder=""
+        aria-label="Hidden input"
+      />
+      <p class="vault-message" id="vaultMessage"></p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
